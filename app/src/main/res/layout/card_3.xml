@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/image_view"
+        android:layout_alignParentEnd="true"
+        android:scaleType="centerInside"/>
+
+
+    <TextView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="choose picture" />
+    
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_below="@+id/uploadButton"/>
+
+    <androidx.appcompat.widget.AppCompatAutoCompleteTextView
+        android:layout_width="200dp"
+        android:id="@+id/picturename"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/picture"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chooseImage"
+        android:text="select file"
+        android:layout_below="@+id/picturename"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/picturename"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/uploadButton"
+        android:text="test upload" />
+
+
+</RelativeLayout>

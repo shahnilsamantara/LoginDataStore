@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "692576480575",
+    "firebase_url": "https://logindata-f3bff.firebaseio.com",
+    "project_id": "logindata-f3bff",
+    "storage_bucket": "logindata-f3bff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692576480575:android:50f1cfa1635ee592f8f78a",
+        "android_client_info": {
+          "package_name": "com.shahnil.logindata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692576480575-v0203naja3nu7826dikbcmuoj0t49k5f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shahnil.logindata",
+            "certificate_hash": "09f11502c1e0c0a8b1e4fa7c1b085d1a2ec100ec"
+          }
+        },
+        {
+          "client_id": "692576480575-at0ja3dbm4i11ntb1ona30mj8du5duu7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2Y89TfXNLrVqlfRYjKjPUSH9BVj4rJDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692576480575-at0ja3dbm4i11ntb1ona30mj8du5duu7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
